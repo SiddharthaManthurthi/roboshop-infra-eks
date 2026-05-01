@@ -35,8 +35,8 @@ Default domain: `daws88s.online`
 |---|---|---|
 | `project` | `roboshop` | Project name used in resource names and tags |
 | `environment` | `dev` | Environment name used in resource names and tags |
-| `zone_id` | `Z05013202FKF0ZL12WAOP` | Route 53 hosted zone ID |
-| `domain_name` | `daws88s.online` | Base domain for DNS records |
+| `zone_id` | `Z0397543RCC8GJCVQ50L` | Route 53 hosted zone ID |
+| `domain_name` | `siddharthais.online` | Base domain for DNS records |
 | `sonar` | `true` | Set to `false` to skip SonarQube instance and its DNS record |
 
 
@@ -50,6 +50,7 @@ terraform apply -var="sonar=false"
 Once you setup and login to jenkins.
 
 ### Plugins
+* Pipeline stage view
 * Pipeline utility steps
 * AWS creds
 * AWS Steps
